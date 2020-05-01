@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(51, 51, 51);
+}
+canvas {
+  display: block;
+}
+button{
+  margin: 1em;
+  background: none;
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  padding: 1em 1.5em;
+  font-size: 1em;
+  transition: 0.3s;
+  font-weight: 800;
+}
+button:hover{
+  background: #fff;
+  color: rgb(50, 50, 50);
+  transition: 0.3s;
+}
+
+input{
+  margin-left: 1em;
+}
